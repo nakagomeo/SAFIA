@@ -5,7 +5,7 @@ Yu Nakagome
 Amplitude base SAFIA for TEAI
 paper : https://www.jstage.jst.go.jp/article/ast/22/2/22_2_149/_pdf/-char/en
 
-sources must be smaller than  #mic
+＃sources must be smaller than  #mic
 '''
 import numpy as np
 import wave
