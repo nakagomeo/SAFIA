@@ -55,7 +55,7 @@ def outputSeparateWave(folderName,convData,orgFile):
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--thres_list",type=list, default = [-10.0,-3.0,-1.0,-0.5,0.0,0.5,1.0,3.0,10.0])
+    parser.add_argument("--thres_list",type=int,nargs="+", default = [-10.0,-3.0,-1.0,-0.5,0.0,0.5,1.0,3.0,10.0])
     parser.add_argument("--cut_length",type=int, default = 30000000)
     args = parser.parse_args()
 
